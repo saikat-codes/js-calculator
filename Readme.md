@@ -21,7 +21,7 @@ A responsive, minimal, fast, and simple JavaScript calculator.
 
 - Enter numbers and operators using the buttons.
 - View results instantly as you calculate.
-- Clear or reset calculations with the "C" button.
+- Clear or reset calculations with the "C" and "AC" button.
 
 ## Technologies Used
 
