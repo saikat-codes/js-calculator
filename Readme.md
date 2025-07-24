@@ -42,8 +42,12 @@ js-calculator/
 
 ## GitHub Pages
 
-You can view the calculator live via [GitHub Pages](https://saikat-codes.github.io/js-calculator/).
+You can view the calculator live via Github Pages: https://saikat-codes.github.io/js-calculator/
 
 ## Screenshots
 
 ![Calculator Screenshot](screenshot.png)
+
+## Credits 
+
+Designed and Developed by [Saikat Das](https://github.com/saikat-codes).
