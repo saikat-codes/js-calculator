@@ -110,6 +110,7 @@ button {
 
 .equal {
     background-color: #4286f496;
+    width: 50%;
 }
 
 .all-clear {
@@ -120,7 +121,7 @@ button:hover {
     box-shadow: 0 6px 15px rgba(40, 40, 40, 0.4);
     background-color: #333538cc;
     transform: translateY(-1px);
-    transition: all 0.05s ease; 
+    transition: all 0.01s ease; 
 }
 
 .special:hover {
