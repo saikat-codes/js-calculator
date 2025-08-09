@@ -8,6 +8,7 @@
 
 body {
     background: linear-gradient(135deg, #000000, #07646b);
+    background-image: url('background.png');
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -33,7 +34,7 @@ body {
 
 .tagline {
     position: absolute;
-    top: 92px;
+    top: 95px;
     font-style: italic;
     font-family: "JetBrains Mono", monospace;
     left: 0;
@@ -45,15 +46,56 @@ body {
     color: rgba(255, 255, 255, 0.774);
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+}
+
+.tagline {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+}
+
+.container{
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 1.8s;
+}
+
+
 .container {
     height: fit-content;
     width: auto;
-    background-color: rgba(20, 19, 19, 0.178);
-    box-shadow: 0 7px 15px rgba(28, 27, 27, 0.588);
+    background-color: rgba(33, 32, 32, 0.079);
+    box-shadow: 0 7px 15px rgba(28, 27, 27, 0.091);
+    backdrop-filter: blur(10px); 
     padding: 15px;
     border-radius: 7px;
-    border: 1px solid rgba(0, 0, 0, 0.101);
+    border: 3px solid rgba(79, 79, 79, 0.101);
     position: fixed;
+    z-index: 100;
+    opacity: 0;
 }
 
 #display {
