@@ -30,6 +30,7 @@ body {
     color: #e0e6f0;
     margin-bottom: 0;
     letter-spacing: 1px;
+    text-shadow: 7px 7px 5px rgb(9, 9, 9);
 }
 
 .tagline {
@@ -44,6 +45,7 @@ body {
     width: 100%;
     z-index: 100;
     color: rgba(255, 255, 255, 0.774);
+    text-shadow: 7px 7px 5px rgb(9, 9, 9);
 }
 
 @keyframes fadeIn {
@@ -96,6 +98,7 @@ body {
     position: fixed;
     z-index: 100;
     opacity: 0;
+    box-shadow: 7px 10px 20px rgba(9, 9, 9, 0.459);
 }
 
 #display {
